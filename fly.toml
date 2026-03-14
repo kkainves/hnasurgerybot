@@ -1,5 +1,5 @@
 app = "hnasurgerybot"
-primary_region = "sfo" # США, San Francisco
+primary_region = "iad" # США, Ashburn, Virginia
 
 [build]
 
