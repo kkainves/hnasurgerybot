@@ -1,16 +1,16 @@
 app = "hnasurgerybot"
-primary_region = "iad" # США, Virginia
+primary_region = "iad"  # США, Virginia
 
 [build]
 
 [http_service]
   internal_port = 8080
   force_https = true
-  auto_stop_machines = "stop"  # оставляем
-  min_machines_running = 1     # 1 машина всегда работает
+  auto_stop_machines = "stop"   # управляет дополнительными машинами, основная работает всегда
+  min_machines_running = 1      # 1 машина всегда онлайн
   processes = ["app"]
 
 [[vm]]
-  memory = "512mb"  # 512mb
+  memory = "512mb"  # минимальное потребление
   cpu_kind = "shared"
   cpus = 1
