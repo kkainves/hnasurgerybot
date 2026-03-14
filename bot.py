@@ -771,6 +771,8 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    import asyncio
-    # asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())  # Windows fix
+    import sys
+    if sys.platform.startswith("win"):
+        import asyncio
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     main()
