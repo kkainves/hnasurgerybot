@@ -1,0 +1,30 @@
+Структура папок тома Новый том
+Серийный номер тома: C43E-D0E7
+D:.
+|   .env
+|   .gitignore
+|   api test.py
+|   archive gpt.py
+|   bot.py
+|   Dockerfile
+|   fly.toml
+|   py
+|   requirements.txt
+|   structure.txt
+|   test_gemini.py
+|   
++---pct_inf
+|       welcom_ru.jpg
+|       welcom_uz.jpg
+|       
+\---txt_inf
+        adr_info_ru.txt
+        adr_info_uz.txt
+        laser_info_ru.txt
+        laser_info_uz.txt
+        prep_info_ru.txt
+        prep_info_uz.txt
+        prompt_main_ru.txt
+        prompt_main_uz.txt
+        welcome_text.txt
+        
